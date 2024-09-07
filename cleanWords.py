@@ -1,0 +1,1 @@
+open('cleanWordList.txt','w').writelines([ line for line in open('wordlist.txt') if '\'' not in line])
